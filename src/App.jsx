@@ -1,6 +1,6 @@
-import React from "react";
-import Profile from "../profile/profile";
-import userData from "./userData.json";
+import React from 'react';
+import Profile from './components/profile/profile';
+import userData from './components/userData.json';
 
 const App = () => {
   return (
