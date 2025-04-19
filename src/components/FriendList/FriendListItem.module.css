@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  .avatar {
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .name {
+    font-weight: bold;
+    flex-grow: 1;
+  }
+  .status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .online {
+    background-color: green;
+  }
+  .offline {
+    background-color: red;
+  }
