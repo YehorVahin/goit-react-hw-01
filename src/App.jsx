@@ -6,7 +6,7 @@ import userData from './userData.json'
 
 function App() {
   return (
-    <div>
+    <>
       <Profile
       name={userData.name}
         tag={userData.tag}
@@ -14,7 +14,7 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}>
       </Profile>
-    </div>
+    </>
   )
 }
 
