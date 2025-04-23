@@ -21,7 +21,7 @@ function App() {
       <FriendList
         friends={friends}>
         </FriendList>
-        <TransactionHistory item={transactions}></TransactionHistory>
+        <TransactionHistory items={transactions}></TransactionHistory>
     </>
   )
 }
