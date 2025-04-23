@@ -1,6 +1,6 @@
 import React from 'react'
 import Profile from './components/Profile/Profile'
-import FriendList from './components/FrienList/FriendList'
+import FriendList from './components/FriendList/FriendList'
 import './App.css'
 
 import userData from './userData.json'
